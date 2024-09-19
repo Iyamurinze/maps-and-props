@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ccc;
+}
+
+
+.app-container {
+  font-family: sans-serif;
+  background-color:#F55A5A;
+  padding-top: 1px;
+}
+
+.main{
+  background-color: white;
+  font-size: 15px;
+}
+
+.travel-journal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.travel-entry {
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  text-align: left;
+}
+
+.entry-image {
+  width: 150px; 
+}
