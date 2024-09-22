@@ -35,3 +35,15 @@
 .entry-image {
   width: 150px; 
 }
+
+.google-maps-link {
+  color: #0077cc; /* Original color */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+} 
+
+.google-maps-link:hover {
+  color: #1bfc50; /* Change color on hover */
+  text-decoration: underline; /* Optional underline */
+  transform: scale(1.05); /* Slight scaling effect */
+}

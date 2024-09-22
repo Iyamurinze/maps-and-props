@@ -10,7 +10,7 @@ function TravelEntry(props) {
         <div className="location">
           <span role="img" aria-label="location pin">📍</span> {location} 
           <a href={googleMapsLink} target="_blank" rel="noopener noreferrer" className="google-maps-link">
-            View on Google Maps
+            Destination Maps
           </a>
         </div>
         <h2 className="entry-title">{title}</h2>
